@@ -1,0 +1,11 @@
+{
+    "errors": [
+        {
+            "message": "API rate limit exceeded",
+            "code": 32,
+            "context": {
+                "retry_after": 1
+            }
+        }
+    ]
+}

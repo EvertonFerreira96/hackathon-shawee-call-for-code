@@ -1,0 +1,31 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "mon": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.1",
+    "@google-cloud/storage": "^5.1.2",
+    "audiobuffer-to-wav": "^1.0.0",
+    "axios": "^0.19.2",
+    "cloudconvert": "^2.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-node": "^0.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "google-auto-auth": "^0.10.1",
+    "http": "^0.0.1-security",
+    "node-lame": "^1.2.2",
+    "sox": "^0.1.0",
+    "web-audio-api": "^0.2.2",
+    "xhr": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
